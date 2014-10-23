@@ -1,0 +1,51 @@
+/*************************
+Page Styles 
+*************************/
+
+/*************************
+make jquery for form, bring up error message if not filled out completely
+
+style button for listening large, centered
+
+make paragraph readable
+
+need 2 fonts, color scheme (maybe a blue)
+
+fix footer
+
+ask what i can do with button
+
+style form
+*************************/
+
+body {
+	background-color: chocolate;
+}
+
+header {
+	font-size: 3.5em;
+	font-weight: bold;
+}
+
+#nav {
+	margin-top: 20px;
+	list-style: none;
+	float: right;
+}
+
+#nav li {
+	float: left;
+	margin-left: 20px;
+}
+
+a {
+	font-size: 1.4em;
+	font-weight: bold;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+#wrapper {
+	width: 920px;
+	margin: 0 auto;
+}
