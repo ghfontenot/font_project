@@ -98,16 +98,23 @@ Styling the Footer
 Home Page
 *************************/
 
-#frontpage li {
-	list-style: none;
-}
-
-#frontpage li a {
+#leftContentDiv, #rightContentDiv {
 	margin: 0;
 	padding: 5%;
-	width: 45%;
+	width: 43%;
 	float: left;
-	list-style: none;
+	display: inline-block;
+}
+
+#leftContentDiv {
+	float: left;
+	padding-right: 15px;
+	padding-top: 50px;
+}
+
+#rightContentDiv {
+	float: right;
+	padding-left: 15px;
 }
 
 /*************************
@@ -116,27 +123,38 @@ Biographies/About Us Page
 
 #bios {
 	margin: 0;
-	padding: 0;
-	list-style: none;
-}
-
-#bios li {
-	float: left;
-	width: 30%;
-	margin: 1.66666667%;
-}
-
-#bios li a {
-	margin: 0;
 	padding: 5%;
-	font-size: 2em;
-	color: steelblue;
+	list-style: none;
+	width: 43%;
+	display: inline-block;
+	float: left;
 }
 
-#paragraphs li {
+#markBio {
+}
+
+#markBio > p {
+	float: right;
 	background-color: green;
 	color: white;
-	display: inline-block;
+}
+
+#anthonyBio {
+}
+
+#anthonyBio > p {
+	float: right;
+	background-color: green;
+	color: white;
+}
+
+#brianBio {
+}
+
+#brianBio > p {
+	float: right;
+	background-color: green;
+	color: white;
 }
 
 /*************************
@@ -157,6 +175,16 @@ Contacts Page
 	background-size: 20px 20px;
 	padding: 0 0 0 30px;
 	margin: 0 0 10px;
+}
+
+#primary {
+	float: right;
+	width: 49%;
+}
+
+#secondary {
+	float: left;
+	width: 49%;
 }
 
 /*************************
